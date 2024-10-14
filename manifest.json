@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Reminder Zikr",
+    "version": "1.0",
+    "description": "Un rappel toutes les 10 minutes: لا تنسى ذكر الله",
+    "permissions": ["alarms"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
